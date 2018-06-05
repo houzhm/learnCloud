@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="learn-cloud-producer" />
+        <module name="learn-config-client" />
+        <module name="learn-config-server" />
+        <module name="learn-eureka-server" />
+        <module name="learn-feign" />
+        <module name="learn-ribbon" />
+        <module name="learn-zipkin-server" />
+        <module name="learn-zipkin-service-hi" />
+        <module name="learn-zipkin-service-miya" />
+        <module name="learn-zuul" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="learn-eureka-client" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
